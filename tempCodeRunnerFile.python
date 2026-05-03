@@ -1,0 +1,4 @@
+num_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print("original List is : ", num_list)
+num_list[2] = [3, 5, 7]
+print("After inserting anthor list the updated list is : ", num_list)
