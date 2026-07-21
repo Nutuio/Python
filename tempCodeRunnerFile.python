@@ -1,11 +1,4 @@
-def Square(x):
-    return (x**2)
-squares = []
-squares = list(filter(Square, range(1, 11)))
-print("List of squares in the range 1-10 = ", squares)
-
-sum = 0
-for i in squares:
-    sum += i
-
-print("Sum of squares in the range 1-10 = ", sum)
+phrase = "The cat is in the hut. The bug is under the table. You must buy a pair of new shose before the annual day"
+words = phrase.lower().split()
+unique_words = {word for word in words if len(word) < 3}
+print(unique_words)

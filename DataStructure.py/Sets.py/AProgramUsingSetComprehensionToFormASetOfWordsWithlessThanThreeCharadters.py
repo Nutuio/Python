@@ -1,0 +1,4 @@
+phrase = "The Cat is in the hut. The bug is under the table. You must buy a Pair of new shoes before the annual day"
+words = phrase.lower().split()
+unique_words = {word for word in words if len(word) < 3}
+print(unique_words)
